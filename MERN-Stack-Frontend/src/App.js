@@ -17,7 +17,6 @@ import EditUser from "./pages/editUser/EditUser";
 import UserDetails from "./pages/UserDetails/UserDetails";
 import AddRoom from "./components/AddRoom";
 import Rooms from "./components/Room/Rooms";
-import About from "./components/About";
 import RoomDetail from "./components/Room/RoomDetail";
 function App() {
   
