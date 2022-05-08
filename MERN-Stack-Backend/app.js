@@ -8,6 +8,7 @@ const app = express();
 // Middlewares
 app.use(express.json());
 app.use(cors());
+app.use("/user", userRouter); //localhost:5000/users
 app.use("/foods", router); // localhost:5000/foods
 
 
