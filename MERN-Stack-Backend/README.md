@@ -1,1 +1,1 @@
-# Hotel-management-With-MERN-Stack
+# Hotel-management MERN
