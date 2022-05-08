@@ -1,0 +1,27 @@
+.field-group {
+  margin: 20px;
+  padding: 0 10px 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  box-shadow: 0 2px 0px #C5C3C3;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.avenirnext-demi-normal-gravel-15px {
+  color: var(--gravel);
+  font-family: var(--font-family-avenirnext-demibold);
+  font-size: 20px;
+  font-weight: 700;
+}
+.avenirnext-demi-normal-gravel-small {
+  color: #4a494aba;
+  font-family: var(--font-family-avenirnext-demibold);
+  font-size: small;
+}
+.avenirnext-demi-normal-gravel-18px {
+  color: var(--gravel);
+  font-family: var(--font-family-avenirnext-demibold);
+  font-size: 30px;
+  font-weight: 700;
+}
