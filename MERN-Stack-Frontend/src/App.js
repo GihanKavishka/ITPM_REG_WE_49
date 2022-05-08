@@ -15,6 +15,10 @@ import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
 import EditUser from "./pages/editUser/EditUser";
 import UserDetails from "./pages/UserDetails/UserDetails";
+import AddRoom from "./components/AddRoom";
+import Rooms from "./components/Room/Rooms";
+import About from "./components/About";
+import RoomDetail from "./components/Room/RoomDetail";
 function App() {
   
   const user = localStorage.getItem("token");
@@ -43,6 +47,11 @@ function App() {
           <Route path="/about" element={<About />} exact />
           <Route path="/foods/:id" element={<FoodDetail />} exact />
           <Route path="/cusfoods" element={<Cusfoods />} exact />
+	  <Route path="/" element={<Home />} exact />
+          <Route path="/add" element={<AddRoom />} exact />
+          <Route path="/rooms" element={<Rooms />} exact />
+          <Route path="/about" element={<About />} exact />
+          <Route path="/rooms/:id" element={<RoomDetail />} exact />
         </Routes>
       </main>
     </React.Fragment>
